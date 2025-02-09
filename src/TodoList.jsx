@@ -3,7 +3,7 @@ import TodoListItem from './TodoListItem';
 
 function TodoList({ todoList, onRemoveTodo }) {
     return (
-        <ul style={{ listStyle: 'none' }}>
+        <ul className="todo-list" style={{ listStyle: 'none' }}>
             {todoList.map((item) => (
                 <TodoListItem
                     key={item.id}
@@ -14,5 +14,5 @@ function TodoList({ todoList, onRemoveTodo }) {
         </ul>
     );
 }
-
+  
 export default TodoList;
