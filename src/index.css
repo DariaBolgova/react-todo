@@ -46,6 +46,13 @@ button {
   transition: background-color 0.3s ease;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
 button:hover {
   background-color: #0d81ae;
 }
