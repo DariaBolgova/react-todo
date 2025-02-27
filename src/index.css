@@ -10,6 +10,7 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
 .form-label {
   display: block;
   text-align: center;
@@ -36,26 +37,23 @@ a:hover {
 }
 
 button {
-  background-color: #1bb8db;
+  background-color: #1aaaca;
   color: white;
   border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
+  padding: 5px 9px 6px 9px;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.3rem;
   transition: background-color 0.3s ease;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
 }
 
 button:hover {
   background-color: #0d81ae;
-}
-
-/* Responsive Typography */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2em;
-  }
-  button {
-    width: 100%;
-  }
 }
